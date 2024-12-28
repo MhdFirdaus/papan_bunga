@@ -1,0 +1,188 @@
+/* Kelas CSS untuk membuat logo menjadi bulat dengan border tebal */
+.logo {
+    border-radius: 50%;  /* Membuat gambar menjadi bulat */
+    height: 40px;        /* Ukuran tinggi logo */
+    width: 40px;         /* Ukuran lebar logo */
+    object-fit: cover;   /* Menjaga agar gambar tidak terdistorsi */
+    border: 2px solid rgba(0, 0, 0, 0.25); /* Border tebal dengan warna hitam */
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    color: rgba(38, 77, 61, 1) !important; /* Warna hijau */
+    font-weight: bold;
+}
+
+/* Memberikan padding pada navbar link */
+.navbar-nav .nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20px;
+}
+
+.special-text {
+    color: rgba(255, 255, 255, 1);  /* Warna putih */
+    font-size: 71px;  /* Ukuran font 71px */
+}
+.special-textt {
+    color: rgba(255, 255, 255, 1);  /* Warna putih */
+    font-size: 24px;  /* Ukuran font 24px */
+}
+/* Menambahkan gaya khusus untuk tombol Login */
+.custom-login-btn {
+  width: 70px;                      /* Lebar tombol */
+  height: 35px;                     /* Tinggi tombol */
+  padding: 4px 10px;                /* Padding pada tombol */
+  gap: 11px;                        /* Jarak antara elemen dalam tombol */
+  border-radius: 10px;              /* Sudut tombol */
+  opacity: 0.9;                     /* Menetapkan opasitas tombol */
+  background-color: white;          /* Warna latar tombol */
+  color: rgba(156, 196, 185, 1);    /* Warna teks */
+  border: 2px solid rgba(156, 196, 185, 1);          /* Garis hitam di tepi tombol */
+  text-align: center;               /* Teks terpusat */
+  display: inline-block;            /* Menampilkan tombol dalam satu baris */
+  font-size: 16px;                  /* Ukuran font */
+  box-sizing: border-box;           /* Termasuk border dalam ukuran */
+}
+.custom-login-btn:focus, 
+.custom-login-btn:active {
+  background-color: white; /* Warna lebih gelap saat tombol diklik */
+  color: rgba(156, 196, 185, 1);              /* Warna teks tetap */
+  border: 2px solid rgba(156, 196, 185, 1);   /* Border tetap sama */
+}
+.custom-login-btn:hover {
+  border: 2px solid rgba(156, 196, 185, 1);          /* Garis hitam di tepi tombol */
+  background-color: white; /* Warna saat hover */
+  opacity: 1;                                 /* Opasitas penuh saat hover */
+  cursor: pointer;                            /* Pointer saat hover */
+  color: black;                               /* Warna teks saat hover */
+}html {
+    scroll-behavior: smooth; /* Menambahkan efek smooth scroll */
+}
+ /* Menjadikan navbar tetap di atas saat di-scroll */
+ .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Agar navbar tetap di atas konten */
+    border-radius: 5px; /* Mengurangi radius navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan agar lebih elegan */
+    padding: 10px 20px; /* Memberikan sedikit ruang dalam navbar */
+}/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  h1, h4, h5 {
+    margin: 0;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  header p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  
+ /* Footer Section */
+footer {
+    background-color: rgba(141, 195, 167, 0.5); /* Warna latar belakang lebih transparan */
+    padding: 10px 0; /* Mengurangi padding untuk membuat footer lebih kecil */
+    font-size: 0.9rem; /* Ukuran font lebih kecil */
+    color: rgba(85, 85, 85, 1); /* Warna teks lebih soft */
+    text-align: center; /* Teks rata tengah */
+    border-top: 1px solid rgba(0, 0, 0, 0.1); /* Menambahkan garis pembatas atas */
+}
+.containerr{
+    background-color: white
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 20px;
+    gap: 10px; /* Mengurangi jarak antar elemen */
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h4, .footer-section h5 {
+    font-weight: bold;
+    margin-bottom: 5px; /* Mengurangi margin */
+    font-size: 1rem; /* Ukuran font lebih kecil */
+}
+
+.footer-section p {
+    margin: 3px 0; /* Mengurangi margin antar paragraf */
+    color: rgba(85, 85, 85, 0.8); /* Teks lebih transparan */
+}
+
+.mitra-logo {
+    width: 60px; /* Ukuran logo lebih kecil */
+    border-radius: 50%; /* Tetap bulat */
+    margin-top: 5px; /* Mengurangi margin */
+}
+.nav-link {
+    color: rgba(133, 133, 133, 1);
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition */
+}
+section.templates {
+  display: flex; /* Mengatur elemen dalam satu baris */
+  gap: 25px; /* Memberi jarak antar elemen */
+  overflow-x: auto; /* Mengaktifkan scroll horizontal */
+  padding: 10px; /* Memberi ruang di sekitar konten */
+  max-width: 1000px; /* Batas lebar untuk menampilkan 4 gambar */
+  margin: 0 auto; /* Untuk merapikan elemen di tengah halaman */
+  scrollbar-width: none; /* Menyesuaikan scrollbar di Firefox */
+}
+
+section.templates::-webkit-scrollbar {
+  height: 8px; /* Tinggi scrollbar */
+}
+
+section.templates::-webkit-scrollbar-thumb {
+  background-color: #888; /* Warna scrollbar */
+  border-radius: 4px; /* Membuat scrollbar lebih bulat */
+}
+
+section.templates::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Warna scrollbar saat di-hover */
+}
+
+section.templates .template {
+  flex: 0 0 auto; /* Membuat setiap elemen tetap dalam ukuran aslinya */
+  text-align: center;
+}
+
+section.templates .template img {
+  width: 250px; /* Ukuran gambar lebih besar */
+  height: auto; /* Menjaga aspek rasio */
+  transition: transform 0.1s ease;
+}
+
+section.templates .template img:hover {
+  transform: scale(1.1); /* Efek zoom saat gambar di-hover */
+}
+
+
+
+

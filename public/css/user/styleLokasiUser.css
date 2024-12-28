@@ -1,0 +1,409 @@
+/* Kelas CSS untuk membuat logo menjadi bulat dengan border tebal */
+.logo {
+    border-radius: 50%;  /* Membuat gambar menjadi bulat */
+    height: 40px;        /* Ukuran tinggi logo */
+    width: 40px;         /* Ukuran lebar logo */
+    object-fit: cover;   /* Menjaga agar gambar tidak terdistorsi */
+    border: 2px solid rgba(0, 0, 0, 0.25); /* Border tebal dengan warna hitam */
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    color: rgba(38, 77, 61, 1) !important; /* Warna hijau */
+    font-weight: bold;
+}
+
+/* Memberikan padding pada navbar link */
+.navbar-nav .nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20px;
+}
+
+.special-text {
+    color: rgba(255, 255, 255, 1);  /* Warna putih */
+    font-size: 71px;  /* Ukuran font 71px */
+}
+.special-textt {
+    color: rgba(255, 255, 255, 1);  /* Warna putih */
+    font-size: 24px;  /* Ukuran font 24px */
+}
+/* Menambahkan gaya khusus untuk tombol Login */
+.custom-login-btn {
+  width: 70px;                      /* Lebar tombol */
+  height: 35px;                     /* Tinggi tombol */
+  padding: 4px 10px;                /* Padding pada tombol */
+  gap: 11px;                        /* Jarak antara elemen dalam tombol */
+  border-radius: 10px;              /* Sudut tombol */
+  opacity: 0.9;                     /* Menetapkan opasitas tombol */
+  background-color: white;          /* Warna latar tombol */
+  color: black;    /* Warna teks */
+  border: 2px solid rgba(156, 196, 185, 1);          /* Garis hitam di tepi tombol */
+  text-align: center;               /* Teks terpusat */
+  display: inline-block;            /* Menampilkan tombol dalam satu baris */
+  font-size: 16px;                  /* Ukuran font */
+  box-sizing: border-box;           /* Termasuk border dalam ukuran */
+}
+.custom-login-btn:focus, 
+.custom-login-btn:active {
+  background-color: white; /* Warna lebih gelap saat tombol diklik */
+  color: black;              /* Warna teks tetap */
+  border: 2px solid rgba(156, 196, 185, 1);   /* Border tetap sama */
+}
+.custom-login-btn:hover {
+  border: 2px solid rgba(156, 196, 185, 1);          /* Garis hitam di tepi tombol */
+  background-color: white; /* Warna saat hover */
+  opacity: 1;                                 /* Opasitas penuh saat hover */
+  cursor: pointer;                            /* Pointer saat hover */
+  color: black;                               /* Warna teks saat hover */
+}
+.custom-login-btn {
+    display: flex; /* Mengatur elemen dalam tombol agar fleksibel */
+    align-items: center; /* Menyelaraskan ikon dan teks secara vertikal */
+    justify-content: center; /* Teks dan ikon tetap berada di tengah */
+    gap: 6px; /* Jarak antara ikon dan teks */
+}
+html {
+    scroll-behavior: smooth; /* Menambahkan efek smooth scroll */
+}
+ /* Menjadikan navbar tetap di atas saat di-scroll */
+ .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-right: 42px !important;
+    padding-left: 42px !important;
+    z-index: 1000; /* Agar navbar tetap di atas konten */
+    border-radius: 5px; /* Mengurangi radius navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan agar lebih elegan */
+    padding: 10px 20px; /* Memberikan sedikit ruang dalam navbar */
+}/* General Styles */
+ 
+  h1, h4, h5 {
+    margin: 0;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  header p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Content Section */
+  .content {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .steps {
+    flex: 1;
+  }
+  
+  .step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  
+ /* Footer Section */
+ footer {
+  background: var(--warnaku, rgba(141, 195, 167, 0.5));
+  padding: 10px 0; /* Mengurangi padding untuk membuat footer lebih kecil */
+  font-size: 0.9rem; /* Ukuran font lebih kecil */
+  color: rgba(85, 85, 85, 1); /* Warna teks lebih soft */
+  text-align: center; /* Teks rata tengah */
+  border-top: 1px solid rgba(0, 0, 0, 0.1); /* Menambahkan garis pembatas atas */
+}
+.containerr{
+    background-color: white
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 20px;
+    gap: 10px; /* Mengurangi jarak antar elemen */
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h4, .footer-section h5 {
+    font-weight: bold;
+    margin-bottom: 5px; /* Mengurangi margin */
+    font-size: 1rem; /* Ukuran font lebih kecil */
+}
+
+.footer-section p {
+    margin: 3px 0; /* Mengurangi margin antar paragraf */
+    color: rgba(85, 85, 85, 0.8); /* Teks lebih transparan */
+}
+
+.mitra-logo {
+    width: 60px; /* Ukuran logo lebih kecil */
+    border-radius: 50%; /* Tetap bulat */
+    margin-top: 5px; /* Mengurangi margin */
+}
+.nav-link {
+    color: rgba(133, 133, 133, 1);
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition */
+}
+
+/* Center button container */
+.button-container {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+/* Style tombol */
+.order-button {
+    background-color: rgba(167, 209, 233, 0.45); /* Warna biru dengan transparansi */
+    color: rgba(48, 48, 48, 0.7);
+    padding: 0.4rem 0.8rem; /* Padding lebih kecil */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem; /* Ukuran font lebih kecil */
+    display: inline-flex;
+    align-items: center; /* Align teks dan ikon secara vertikal */
+    gap: 0.3rem; /* Jarak antara teks dan ikon */
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+/* Lingkaran ikon */
+.order-button .button-icon-circle {
+    background-color: transparent; /* Latar belakang transparan */
+    color: #000; /* Ikon tetap hitam */
+    width: 1.6rem; /* Lebar lingkaran lebih kecil */
+    height: 1.6rem; /* Tinggi lingkaran lebih kecil */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Membuat elemen berbentuk lingkaran */
+    font-size: 0.9rem; /* Ukuran ikon lebih kecil */
+    margin-left: 0.3rem; /* Jarak dari teks tombol */
+    border: 1px solid rgba(0, 0, 0, 0.7); /* Garis hitam lebih tipis dengan transparansi */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.templates {
+    display: grid; /* Tetap menggunakan grid layout */
+    grid-template-columns: repeat(3, auto); /* Lebar kolom menyesuaikan ukuran konten */
+    gap: 15px; /* Jarak antar elemen */
+    justify-content: center; /* Konten berada di tengah secara horizontal */
+    padding: 10px; /* Memberikan ruang di sekitar grid */
+}
+
+.template {
+    display: inline-block; /* Supaya container menyesuaikan ukuran konten */
+    text-align: center; /* Pusatkan teks jika ada */
+}
+
+.template img {
+    max-width: 100%; /* Pastikan gambar tidak melebihi container */
+    height: auto; /* Menjaga proporsi gambar */
+    border-radius: 10px; /* Sudut gambar melengkung */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efek animasi */
+}
+
+.template img:hover {
+    transform: scale(1.05); /* Zoom-in saat hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Bayangan lebih besar saat hover */
+}
+.containerr {
+  text-align: center;
+}
+
+.templatess {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px; /* Jarak antar template */
+  justify-items: center;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.template img {
+  width: 100%;
+  max-width: 200px; /* Atur ukuran gambar sesuai kebutuhan */
+  border-radius: 8px; /* Opsional untuk sudut membulat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 1.5rem;
+  color: #4CAF50;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  color: #333;
+  font-size: 1rem;
+}
+
+.navbar nav a.active {
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.navbar nav .login-button {
+  background-color: #e7f3ff;
+  color: #007bff;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.navbar nav .login-button:hover {
+  background-color: #d0e7ff;
+}
+
+/* Main Content */
+main {
+  padding: 40px 0;
+}
+
+.location-section {
+  text-align: center;
+}
+
+.location-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.location-container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.location-container h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.location-content {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.location-map img,
+.location-image img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.location-map {
+  flex: 1.7;
+}
+
+.location-image {
+  flex: 1;
+}
+
+.location-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px; /* Mengurangi padding */
+  font-size: 14px; /* Mengecilkan ukuran teks */
+  font-family: Arial, sans-serif;
+  background-color: #d3e8d3; /* Warna hijau */
+  color: #000; /* Warna hitam untuk teks dan ikon */
+  border: none;
+  border-radius: 8px; /* Membulatkan sudut dengan ukuran lebih kecil */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+.location-button i {
+  margin-right: 6px; /* Jarak antara ikon dan teks */
+  font-size: 16px; /* Mengecilkan ukuran ikon */
+}
+
+.location-button:hover {
+  background-color: #b8dcb8; /* Warna hijau lebih gelap saat di-hover */
+  transform: translateY(-2px); /* Efek hover untuk mengangkat tombol */
+}
+
+.empty-state {
+  color: #aaa;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* Align button to the right */
+}
+
+.empty-state {
+  color: #aaa;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* Align button to the right */
+}
+
+

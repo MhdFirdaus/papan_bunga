@@ -1,0 +1,101 @@
+/* Kelas CSS untuk membuat logo menjadi bulat dengan border tebal */
+.logo {
+    border-radius: 50%;  /* Membuat gambar menjadi bulat */
+    height: 40px;        /* Ukuran tinggi logo */
+    width: 40px;         /* Ukuran lebar logo */
+    object-fit: cover;   /* Menjaga agar gambar tidak terdistorsi */
+    border: 2px solid rgba(0, 0, 0, 0.25); /* Border tebal dengan warna hitam */
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    color: rgba(38, 77, 61, 1) !important; /* Warna hijau */
+    font-weight: bold;
+}
+.template img {
+  transition: transform 0.3s;
+}
+
+.template a:hover img {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+/* Memberikan padding pada navbar link */
+.navbar-nav .nav-link {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+body {
+    background-color: white;
+    background-size: cover; /* Agar gambar memenuhi layar */
+    background-position: center; /* Menempatkan gambar di tengah layar */
+    background-attachment: fixed; /* Agar gambar tetap saat scroll */
+}
+.special-text {
+    color: rgba(255, 255, 255, 1);  /* Warna putih */
+    font-size: 50px;  /* Ukuran font 71px */
+}
+.special-textt {
+    color: rgba(255, 255, 255, 1);  /* Warna putih */
+    font-size: 24px;  /* Ukuran font 24px */
+}
+.custom-login-btn {
+  width: 70px;                      /* Lebar tombol */
+  height: 35px;                     /* Tinggi tombol */
+  padding: 4px 10px;                /* Padding pada tombol */
+  gap: 11px;                        /* Jarak antara elemen dalam tombol */
+  border-radius: 10px;              /* Sudut tombol */
+  opacity: 0.9;                     /* Menetapkan opasitas tombol */
+  background-color: white;          /* Warna latar tombol */
+  color: black;    /* Warna teks */
+  border: 2px solid rgba(156, 196, 185, 1);          /* Garis hitam di tepi tombol */
+  text-align: center;               /* Teks terpusat */
+  display: inline-block;            /* Menampilkan tombol dalam satu baris */
+  font-size: 16px;                  /* Ukuran font */
+  box-sizing: border-box;           /* Termasuk border dalam ukuran */
+}
+.custom-login-btn:focus, 
+.custom-login-btn:active {
+  background-color: white; /* Warna lebih gelap saat tombol diklik */
+  color: black;              /* Warna teks tetap */
+  border: 2px solid rgba(156, 196, 185, 1);   /* Border tetap sama */
+}
+.custom-login-btn:hover {
+  border: 2px solid rgba(156, 196, 185, 1);          /* Garis hitam di tepi tombol */
+  background-color: white; /* Warna saat hover */
+  opacity: 1;                                 /* Opasitas penuh saat hover */
+  cursor: pointer;                            /* Pointer saat hover */
+  color: black;                               /* Warna teks saat hover */
+}
+
+.custom-login-btn {
+    display: flex; /* Mengatur elemen dalam tombol agar fleksibel */
+    align-items: center; /* Menyelaraskan ikon dan teks secara vertikal */
+    justify-content: center; /* Teks dan ikon tetap berada di tengah */
+    gap: 6px; /* Jarak antara ikon dan teks */
+}
+
+.custom-login-btn i {
+    margin-right: 0; /* Menghapus margin berlebih */
+    font-size: 1rem; /* Ukuran ikon sesuai dengan teks */
+}
+
+  
+html {
+    scroll-behavior: smooth; /* Menambahkan efek smooth scroll */
+}
+ /* Menjadikan navbar tetap di atas saat di-scroll */
+ .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Agar navbar tetap di atas konten */
+    border-radius: 5px; /* Mengurangi radius navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan agar lebih elegan */
+    padding: 10px 20px; /* Memberikan sedikit ruang dalam navbar */
+}/* General Styles */

@@ -1,0 +1,118 @@
+        body {
+            background-color: rgba(141, 195, 167, 0.5); /* Warna hijau muda */
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .form-control {
+            border-radius: 10px;
+            border: 1px solid #d1d5db;
+        }
+        .form-control:focus {
+            box-shadow: none;
+            border-color: #8dc3a7;
+        }
+        .btn-primary {
+            background-color: #8dc3a7;
+            border: none;
+            border-radius: 10px;
+        }
+        .btn-primary:hover {
+            background-color: #76b292;
+        }
+        .text-secondary {
+            font-weight: 600;
+        }
+        .toggle-password {
+            cursor: pointer;
+            position: absolute;
+            right: 15px; /* Jarak dari sisi kanan */
+            top: 50%; /* Posisi vertikal di tengah */
+            transform: translateY(-50%); /* Agar sejajar secara vertikal */
+            color: #6c757d; /* Warna ikon */
+            font-size: 1.2rem; /* Ukuran ikon */
+        }
+        img.logo-left {
+            margin-left: 0; /* Pastikan margin kiri 0 */
+            display: block;
+        }
+                
+        .fw-boldd{
+            text-align: left;
+        }
+        .text-center mt-3{
+            text-align: left;
+        }
+        .text-muted{
+            text-align: left;
+            font-size: 13px;
+            color: black;
+        }
+        .card {
+            background-color: rgba(255, 255, 255, 1);
+        }
+        #submitBtn {
+            background-color: white; /* Warna default: putih */
+            color: black; /* Warna teks abu-abu */
+            border: 1px solid black;
+            transition: background-color 0.3s, color 0.3s; /* Animasi transisi */
+        }
+        
+        #submitBtn.active {
+            background-color: rgba(141, 195, 167, 0.5); /* Warna hijau */
+            color: white; /* Warna teks putih */
+            border: 1px solid rgba(141, 195, 167, 0.5);
+        }
+
+
+        /* regis */
+        .register-card {
+            background: #f7fdf9; /* Warna card */
+            border-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            width: 400px;
+        }
+
+        .register-card h3 {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .register-card img {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+
+        .form-control {
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+        }
+
+        .btn-confirm {
+            background-color: #f2f2f2;
+            font-weight: bold;
+            color: black;
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .btn-confirm:hover {
+            background-color: #e0e0e0;
+        }
+
+        .text-muted a {
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .btn btn-secondary{
+            color: #000;
+        }
+        
+        
